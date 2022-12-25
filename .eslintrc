@@ -10,7 +10,7 @@
     ],
     "plugins": ["@typescript-eslint"],
     "rules": {
-        "@typescript-eslint/strict-booleasn-expressions":[
+        "@typescript-eslint/strict-boolean-expressions":[
             2,
             {
                 "allowString": false,
