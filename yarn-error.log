@@ -1,0 +1,43 @@
+Arguments: 
+  /home/dhiyo7/.nvm/versions/node/v14.21.1/bin/node /usr/bin/yarn add express helmet dotenv corsmongoose bcrypt jsonwebtoken
+
+PATH: 
+  /home/dhiyo7/.nvm/versions/node/v14.21.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dhiyo7/.local/share/JetBrains/Toolbox/scripts:/home/dhiyo7/Android/Sdk/emulator:/home/dhiyo7/Android/Sdk/platform-tools:/home/dhiyo7/.local/share/JetBrains/Toolbox/scripts:/home/dhiyo7/Android/Sdk/emulator:/home/dhiyo7/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.21.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/corsmongoose: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "venom-backend",
+    "version": "0.0.1",
+    "description": "bacckend for venom stack",
+    "main": "index.js",
+    "author": "Dhiyo Reksa",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
